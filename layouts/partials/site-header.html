@@ -8,7 +8,7 @@
 	  <div class="tc-l pt0 pt0-l mt0 pb4 pb6-l">
 		  {{ partialCached "social-follow.html" . }}
 	  </div>
-	 <div class="tc-l bg-black">
+	 <div class="tc-l {{ .Site.Params.background_color_class | default "bg-black" }}">
 		  {{ partial "site-navigation.html" .}}
 	 </div>
 </header>
