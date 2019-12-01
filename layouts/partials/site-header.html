@@ -2,12 +2,15 @@
 {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
 {{ $featured_image := (trim $featured_image "/") | absURL }}
 <header class="cover bg-top" style="background-image: url('{{ $featured_image }}');">
-      <div class="tc-l pv2 pv4-l ph3 ph4-ns">
+      <div class="tc-l pt4 pt6-l pb0 ph3 ph4-ns mb0">
 		<img src="/images/transparent-sb-script.png" class="mw-4 mh-2" alt="Serena Bell script">
       </div>
-	  {{ partial "site-navigation.html" .}}
-	  {{ partialCached "social-follow.html" . }}
-	 
+	  <div class="tc-l pt0 pt0-l mt0 pb4 pb6-l">
+		  {{ partialCached "social-follow.html" . }}
+	  </div>
+	 <div class="tc-l bg-black">
+		  {{ partial "site-navigation.html" .}}
+	 </div>
 </header>
 
 
