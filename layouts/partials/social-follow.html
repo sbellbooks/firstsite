@@ -67,3 +67,15 @@
   {{- partial "new-window-icon.html" . -}}
 </a>
 {{ end }}
+{{ with .Param "goodreads" }}
+<a href="{{ . }}" target="_blank" class="link-transition slack link dib z-999 pt3 pt0-l mr1" title="Goodreads link" rel="noopener" aria-label="follow on Goodreads——Opens in a new window">
+  {{ partial "svg/goodreads.svg" (dict "size" $icon_size) }}
+  {{- partial "new-window-icon.html" . -}}
+</a>
+{{ end }}
+{{ with .Param "pinterest" }}
+<a href="{{ . }}" target="_blank" class="link-transition slack link dib z-999 pt3 pt0-l mr1" title="Pinterest link" rel="noopener" aria-label="follow on Pinterest——Opens in a new window">
+  {{ partial "svg/pinterest.svg" (dict "size" $icon_size) }}
+  {{- partial "new-window-icon.html" . -}}
+</a>
+{{ end }}

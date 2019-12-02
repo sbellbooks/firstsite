@@ -1,19 +1,17 @@
-<svg{{ with .size }} height="{{ . }}" {{ end }} style="enable-background:new 0 0 67 67; fill: {{ .color }};" version="1.1" viewBox="0 0 67 67" width="{{ .size }}" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >  <image 
-    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElN
-RQfjDAICIiylExirAAACuUlEQVRo3s2ZPUhbURTHf7lmfRBpQjtlahJKsmUMDV0CXQodOkmXOEin
-IlhwrFOHUkWEdnAQurgWZ7fULkUXMUJCRwvNB1HIFEo9HZ7XJBLjuzcvuZ4zvHcf797//36de+45
-EUwlQZEsGdLE8fCALl3a1KlRpULLuMXAkmedYy6RMXrJMevkw4b2WKE6FvimVlnBCwc8xhodI3Ct
-HdaITQYeoUzTClxrkzIRW/gkBxOBaz0gaQNfoBEKvCA0KJjCL9ILDV4QeiwGB59jI1RwrRvMBYPf
-mwq8IOwFoTCd3vdH4c65nya8IOPXQiHkpTd6Od66I5Ihbrxx2hhtFyI2Zictn+RQmvJXtHwNUu9g
-lHUsm8O/GwA2IiCUb8LHzG3+KxklAQk09TGlrggskwhuqXz5YFphUBIsDxY98wM3JzLJCAgd31/w
-R2CJedMupCbpP8A8S/2CmbcjCPJmqN8/5bk8kZSk5GHwNqoaPm+zm98PEXhm0QJC3p+CBZsRHHb4
-/thNw4JPoGRTV4ZK/+wIlECRIGdX+3Y6gSVHIkrRzGl8efUc3gWl616ccRi8sQjFKFkz0t9Gfv1y
-/fbZhABkFRkzAnfJb7PfM4q0UwJpRTxcAmdmv8dVWDc4yxHwoqYEtP18xIOBr7/oWRLA1gv8OGSK
-H9uZYqGn6IY7BYbSvQcE2k4JtBV1pwTqippTAjXV90ucSFVRsT1LQxChomhx4ozACS0F7DsjsO+7
-ZLvOCOz6BI44dQJ/ypG+mOw4IbADmsA25zOHP2e7T6DL1swJbPmnkL4db04WZjc2JS02/RdN4ILV
-mfZ/lQv/pX8niPDdJKD6mhcDpbc0TOB/8HTUoDkOUoHzMB04D1SC81DtPQhWOw/X67XgMGGhd4TT
-lA04T1qB87SdL04Tl1qcpm77MpXktfn8hJy+/w/ajhcdBtL9mgAAACV0RVh0ZGF0ZTpjcmVhdGUA
-MjAxOS0xMi0wMlQwMjozNDo0NCswMzowMNCE8+wAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMTIt
-MDJUMDI6MzQ6NDQrMDM6MDCh2UtQAAAAAElFTkSuQmCC" />
+<svg{{ with .size }} height="{{ . }}" {{ end }} style="enable-background:new 0 0 67 67; fill: {{ .color }};" version="1.1" viewBox="0 0 67 67" width="{{ .size }}" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+ width="64.000000pt" height="64.000000pt" viewBox="0 0 64.000000 64.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.15, written by Peter Selinger 2001-2017
+</metadata>
+<g transform="translate(0.000000,64.000000) scale(0.100000,-0.100000)"
+fill="black" stroke="none">
+<path d="M194 619 c-70 -27 -147 -105 -174 -176 -46 -123 -18 -262 71 -352 90
+-89 229 -117 352 -71 73 27 150 104 177 177 27 72 27 174 0 246 -27 73 -104
+150 -177 177 -71 26 -179 26 -249 -1z m216 -148 c0 -25 -4 -30 -27 -33 -22 -2
+-29 -9 -31 -30 -3 -25 0 -28 26 -28 26 0 28 -3 24 -30 -3 -24 -9 -30 -28 -30
+-24 0 -24 -2 -24 -91 l0 -90 -32 3 -33 3 -3 88 c-3 79 -5 87 -22 87 -16 0 -20
+7 -20 30 0 23 5 30 19 30 15 0 21 10 26 43 10 59 29 77 82 77 41 0 43 -1 43
+-29z"/>
+</g>
 </svg>

@@ -27,6 +27,8 @@ enableRobotsTXT = true
   linkedin = ""
   mastodon = ""
   slack = ""
+  pinterest = "https://www.pinterest.com/serenabellbooks/"
+  goodreads = "https://www.goodreads.com/author/show/6600927.Serena_Bell"
   bookbub = "https://www.bookbub.com/profile/serena-bell"
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
