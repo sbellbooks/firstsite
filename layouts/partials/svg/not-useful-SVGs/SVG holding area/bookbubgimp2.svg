@@ -1,5 +1,5 @@
 <svg{{ with .size }} height="{{ . }}" {{ end }} style="enable-background:new 0 0 67 67;" version="1.1" xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 92 92" >
+     viewBox="0 0 100 100" >
   <path id="Selection"
         d="M 37.00,6.46
            C 18.13,10.67 3.24,26.14 3.00,46.00

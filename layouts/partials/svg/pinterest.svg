@@ -1,26 +1,15 @@
-<svg{{ with .size }} height="{{ . }}" {{ end }} style="enable-background:new 0 0 67 67; fill: {{ .color }};" version="1.1" viewBox="0 0 67 67" width="{{ .size }}" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >  <image 
-    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElN
-RQfjDAIDExk0P7ENAAAEWElEQVRo3s2ZTWhcVRTHfzOZCCKDqWRQK0ZtbSLEohIRNdAmKC504SIu
-WpDSFBGLiEoWobiJoAhCUglIBUWFElGUalpFadWARERLqQ5MSFoXtX5g4nSSOpEYW+e4mHvvvLy+
-zDsv88LznMW5c++Z8//fj3c/U0SVHNvopIN2WsmSBcqUKXKKGQp8xR+RI6qli2HyVJA6WiHPMF1x
-Q2cZoFAX2K8FBsjGA97CEKVI4FZLDNHSGHiKfubWBG51jn5Sa4VvY7IhcKuTtK0FvpvZWOAFYZbu
-qPB7WI4NXhCW2aMHb2IkVnCrIzTp4MfXBV4QxjUU1qf2tVYI7fv1hBek/ljojnnoBQ/HVb+Ithg/
-vHo6GzwvpGKadjQ6GTQ79usDpKRXXpYv5Gc5J0tSkrwckUG5XVJ6Cv1++BbtnN8sz8oZCZZp2S3N
-OgJz/mVqSAe/XU5JfZmW23QUhmzPA2T5iQ3hU8RTjJBxv85yiF+ZZ4ktPMC9Lv9vHudgeLB5bqBs
-fwxoOO/z1POw9Pp6/Fb53JVelIc0bTBQY6PY7eyUigm/KI+tMjRfchQW5aZwAgUL3xUOf7UsmNBF
-uaWO3yFH4aCmDczecTjc9S3XuPe7vHSA33Vy3nj+K1vCCQxXCeTDHHNywYTdZ3Iysl9KUpL35Rqf
-79uuDZ4OJ5AHyIVstAV50oT8RS4zOWMO5ojPd7cr+SicQIUc9IV3wLgJ+YL53eP5Hv7y+ba7ktOa
-UdCXpjP8k73Z2KPG7vKULfl8z7uU6ljQmaYj3OtGY380tsdT9oPP90I0Ah1p2sO9bFA7cW30lH3n
-80271EUNgfY0reFefxp7lbHLnrKP/VVyqbMaAq1pTUsVjd1u7GlPyTc+363RCGRVBD41dq+x77iS
-o1R8vne51EklAYV8YOzdPAzAOVfymc/zCh5x6U80oUnXlsTV5SRvmNSDAGxzJd/7PHe4Bi3yrQa/
-rCIAe003NAO1sQC/rfC6kudc+sAlnRNMAI4r5itB0rJLJuQ+QTZ65sHrV/i85/LnpUUVleMwpiNQ
-050eAgfctiQj+z35z2ijjWWYUY0Vj/R40k9wBx8yxyYedfMlvMsr2mAzqsVopU6HbEsn5HJ9tD7V
-cuzVaz3N/JrbplmpyIvSpI9WIQeKDYlXdziwrYL0ytfud1FGtVtyq3nIAMc882eo3GnsIlPABN3k
-2MwiC/yuW368cqxqFJvSmh429f0y4sgJ1K7q6nmCKT1pu3rrJtq6MsUJu3y/qf1PE5tMarxxAh7U
-rPYudLPpgELjzV+qLhvVFigzqiNtD5CvNl7/0ZWrkPJ4fo+IiJxx2/M1qzue2/3AAoMa2tXD9PP8
-02j9B1m4NLbiiqZDRF6PchMSrJPBF9iKS6oNMhZ4Joyks6tfXiuu6TKNwi/Xv7hO+KISEr+q/R9c
-Vid+XW/HQoIPFvaLSPTJBhJ/tILEn+2qkujDpZVEn25rsi6P19H7J+bn+/8A3DjCEGlDKBYAAAAl
-dEVYdGRhdGU6Y3JlYXRlADIwMTktMTItMDJUMDM6MTk6MjUrMDM6MDDAmBorAAAAJXRFWHRkYXRl
-Om1vZGlmeQAyMDE5LTEyLTAyVDAzOjE5OjI1KzAzOjAwscWilwAAAABJRU5ErkJggg==" />
+<svg{{ with .size }} height="{{ . }}" {{ end }} style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="{{ .size }}" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<metadata>
+Created by potrace 1.15, written by Peter Selinger 2001-2017
+</metadata>
+<g transform="translate(0.000000,64.000000) scale(0.100000,-0.100000)">
+<path d="M194 619 c-70 -27 -147 -105 -174 -176 -46 -123 -18 -262 71 -352 90
+-89 229 -117 352 -71 73 27 150 104 177 177 27 72 27 174 0 246 -27 73 -104
+150 -177 177 -71 26 -179 26 -249 -1z m183 -140 c89 -33 111 -146 44 -218 -30
+-32 -79 -41 -110 -22 -11 7 -18 -2 -32 -40 -9 -28 -21 -55 -28 -62 -16 -16
+-14 65 3 129 7 29 11 63 9 77 -6 33 13 67 38 67 28 0 33 -23 19 -76 -11 -39
+-11 -47 3 -61 14 -15 18 -15 42 1 53 35 61 112 15 158 -26 25 -36 29 -63 24
+-71 -14 -113 -78 -88 -133 17 -37 -1 -51 -29 -23 -18 18 -21 30 -17 67 10 91
+105 146 194 112z"/>
+</g>
 </svg>

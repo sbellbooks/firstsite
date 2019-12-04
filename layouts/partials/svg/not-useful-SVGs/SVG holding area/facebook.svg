@@ -1,0 +1,17 @@
+<svg{{ with .size }} height="{{ . }}" {{ end }} style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="{{ .size }}" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+ width="64.000000pt" height="64.000000pt" viewBox="0 0 64.000000 64.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.15, written by Peter Selinger 2001-2017
+</metadata>
+<g transform="translate(0.000000,64.000000) scale(0.100000,-0.100000)"
+ stroke="none">
+<path d="M194 619 c-70 -27 -147 -105 -174 -176 -46 -123 -18 -262 71 -352 90
+-89 229 -117 352 -71 73 27 150 104 177 177 27 72 27 174 0 246 -27 73 -104
+150 -177 177 -71 26 -179 26 -249 -1z m216 -148 c0 -25 -4 -30 -27 -33 -22 -2
+-29 -9 -31 -30 -3 -25 0 -28 26 -28 26 0 28 -3 24 -30 -3 -24 -9 -30 -28 -30
+-24 0 -24 -2 -24 -91 l0 -90 -32 3 -33 3 -3 88 c-3 79 -5 87 -22 87 -16 0 -20
+7 -20 30 0 23 5 30 19 30 15 0 21 10 26 43 10 59 29 77 82 77 41 0 43 -1 43
+-29z"/>
+</g>
+</svg>
