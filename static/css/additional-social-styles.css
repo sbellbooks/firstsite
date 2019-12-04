@@ -1,0 +1,25 @@
+.bookbub, .goodreads, .pinterest, {
+  fill: #BABABA;
+}
+
+.new-window {
+  opacity: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+.link-transition:hover .new-window{
+  opacity: 1;
+}
+
+.bookbub:hover {
+  fill: #3b5998;
+}
+
+.goodreads:hover {
+  fill: #1da1f2;
+}
+
+.pinterest:hover {
+  fill: #e1306c;
+}
+

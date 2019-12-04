@@ -34,7 +34,7 @@ enableRobotsTXT = true
   background_color_class = "bg-black"
   featured_image = "/images/site-header-image-background.jpg"
   recent_posts_number = 2
-  custom_css = ["css/mailchimp-styles.css"]
+  custom_css = ["css/mailchimp-styles.css", "css/additional-social-styles.css"]
 
 [menus]
 
