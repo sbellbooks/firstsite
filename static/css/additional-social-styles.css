@@ -1,5 +1,5 @@
-.bookbub, .goodreads, .pinterest, {
-  fill: #BABABA;
+.bookbub, .goodreads, .pinterest, .facebook, .twitter, .instagram{
+  fill: #a42071;
 }
 
 .new-window {
