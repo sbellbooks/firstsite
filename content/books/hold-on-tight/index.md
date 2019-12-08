@@ -1,7 +1,15 @@
 ---
-title: "Hold on Tight"
-date: 2019-12-08T12:32:39-08:00
+title: "Hold On Tight"
+date: 2019-12-08T12:59:09-08:00
 draft: true
+cover: ""
+tagline: ""
+releaseDate: ""
+shortDescription: ""
+blurb: ""
+eretailerButtons: ""
+excerpt: ""
+seriesName: ""
 ---
 
 This is a page about the book Hold On Tight. 
