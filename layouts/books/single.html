@@ -16,6 +16,27 @@
       
     </header>
 	<img src="{{ .Params.cover }}">
+	
+	<section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+    {{ $headless := .Site.GetPage "/textbits" }}
+    {{ $reusablePages := $headless.Resources.ByType "page" }}
+    {{ $reusablePages := sort $reusablePages ".Params.weight" }}
+    {{ range first 1 $reusablePages }}
+	
+            <p>{{ .Content }}</p>
+            
+    {{ end }}
+
+    {{ range first 1 (after 1 $reusablePages) }}
+    
+	
+            <h2>{{ .Title }}</h2>
+            <p>{{ .Content }}</p>
+			
+	</header>
+			         
+    {{ end }}
+	</section>
 
     <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
       {{- .Content -}}
