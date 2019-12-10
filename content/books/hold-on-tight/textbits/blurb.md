@@ -1,8 +1,8 @@
 ---
-title: "Hold on Tight Blurb"
-date: 2019-12-08T17:25:55-08:00
+title: 
+date: 
 draft: true
 weight: 1
 ---
 
-This is a Hold On Tight blurb. 
+This is a blurb of Hold On Tight. 
