@@ -15,10 +15,10 @@
       </h1>
       
     </header>
-	<img src="{{ .Params.cover }}">
+	<img src="{{ .Params.cover }}" />
 	
-	<section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-    {{ $headless := .Site.GetPage "hot-textbits" }}
+	<div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+	{{ $headless := .Site.GetPage "hot-textbits" }}
     {{ $reusablePages := $headless.Resources.ByType "page" }}
     {{ $reusablePages := sort $reusablePages ".Params.weight" }}
     {{ range first 1 $reusablePages }}
@@ -35,9 +35,9 @@
 			
 			         
     {{ end }}
-	</section>
+	</div>
 
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
       {{- .Content -}}
 	  This is random text to tell me this file is using the "books" layout template.
       {{- partial "tags.html" . -}}
@@ -49,7 +49,7 @@
         {{- partial "commento.html" . -}}
       {{ end }}
       </div>
-    </section>
+    </div>
 
     <aside class="w-30-l mt6-l">
       {{- partial "menu-contextual.html" . -}}
