@@ -11,6 +11,7 @@ eretailerButtons: ""
 excerpt: ""
 seriesName: ""
 author: "Serena B"
+url: "/books/hold-on-tight"
 ---
 
 This is a page with stuff about Hold On Tight. 

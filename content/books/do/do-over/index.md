@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Do Over"
+date: 2019-12-10T19:38:03-08:00
 draft: true
 cover: ""
 tagline: ""
@@ -10,5 +10,6 @@ blurb: ""
 eretailerButtons: ""
 excerpt: ""
 seriesName: ""
+url: "/books/do-over"
 ---
 
