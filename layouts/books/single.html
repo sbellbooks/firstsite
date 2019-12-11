@@ -18,7 +18,8 @@
 	<img src="{{ .Params.cover }}" />
 	
 	<div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-	{{ $headless := .Site.GetPage "hot-textbits" }}
+	{{ $fred := (printf "%s-bits" .File.ContentBaseName ) }}
+	{{ $headless := .Site.GetPage $fred }}
     {{ $reusablePages := $headless.Resources.ByType "page" }}
     {{ $reusablePages := sort $reusablePages ".Params.weight" }}
     {{ range first 1 $reusablePages }}
