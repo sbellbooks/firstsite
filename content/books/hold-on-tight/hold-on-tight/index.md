@@ -5,7 +5,7 @@ draft: true
 cover: "/images/hold-on-tight.jpg"
 tagline: ""
 releaseDate: "January 23, 2020"
-shortDescription: ""
+shortDescription: This is a short description of Hold On Tight
 blurb: ""
 eretailerButtons: ""
 excerpt: ""

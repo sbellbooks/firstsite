@@ -17,11 +17,14 @@
 	<img src="{{ .Params.cover }}" />
 	
 	<div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-	    {{ $bookkid := .Page.Params.seriesChildren}} {{/* Stores the list of the series children as a variable.*/}} 
-		{{ range $bookkid }} {{/* Ranges through the series children. */}}
+	    {{ $seriesBookNames := .Page.Params.seriesChildren}} {{/* Stores the book names of the series children as a variable.*/}} 
+		{{ range $seriesBookNames }} {{/* Ranges through the book names for the series. */}}
     
-	
+				
 	             <img src="/images/{{.}}.jpg" />
+				{{ $currentBookPage := $.Site.GetPage . }} 
+				{{ $currentBookPage.Params.shortDescription }}
+				 
 			
 			         
 	    {{ end }}
