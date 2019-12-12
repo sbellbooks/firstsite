@@ -1,7 +1,11 @@
 ---
-title: "Returning Home"
-date: 2019-12-08T12:34:16-08:00
+title: 
+date: 
 draft: true
+seriesName: ""
+seriesShortDescription: ""
+seriesChildren: ""
+seriesEretailerButtons: ""
 ---
 
 This is a page about the series Returning Home. 

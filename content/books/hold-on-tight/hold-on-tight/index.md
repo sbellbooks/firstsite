@@ -2,7 +2,7 @@
 title: "Hold On Tight"
 date: 2019-12-08T17:25:55-08:00
 draft: true
-cover: "/images/HOTguy2.jpg"
+cover: "/images/hold-on-tight.jpg"
 tagline: ""
 releaseDate: "January 23, 2020"
 shortDescription: ""

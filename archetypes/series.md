@@ -4,7 +4,6 @@ date: {{ .Date }}
 draft: true
 seriesName: ""
 seriesShortDescription: ""
-seriesLongDescription: ""
 seriesChildren: ""
 seriesEretailerButtons: ""
 ---
