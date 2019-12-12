@@ -17,6 +17,14 @@
 	<img src="{{ .Params.cover }}" />
 	
 	<div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+	    {{ $bookkid := .Page.Params.seriesChildren}} {{/* Stores the list of the series children as a variable.*/}} 
+		{{ range $bookkid }} {{/* Ranges through the series children. */}}
+    
+	
+	             <img src="/images/{{.}}.jpg" />
+			
+			         
+	    {{ end }}
 	
 	</div>
 

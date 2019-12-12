@@ -4,7 +4,11 @@ date:
 draft: true
 seriesName: ""
 seriesShortDescription: ""
-seriesChildren: ""
+seriesChildren: 
+  - hold-on-tight
+  - cant-hold-back
+  - to-have-and-to-hold
+  - holding-out
 seriesEretailerButtons: ""
 ---
 
