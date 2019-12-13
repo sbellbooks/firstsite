@@ -7,7 +7,9 @@ tagline: ""
 releaseDate: "January 23, 2020"
 shortDescription: This is a short description of Hold On Tight
 blurb: ""
-eretailerButtons: ""
+eretailerButtons:
+  - Amazon
+  - Apple
 excerpt: ""
 seriesName: ""
 author: "Serena B"

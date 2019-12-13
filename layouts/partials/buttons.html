@@ -1,3 +1,6 @@
+{{ range .Page.Params.eretailerButtons }}
+
 <div class="ph3">
-  <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" href="#0">Button Text</a>
+  <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" href="#0">{{.}}</a>
 </div>
+{{end}}
