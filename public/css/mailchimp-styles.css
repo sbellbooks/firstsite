@@ -1,0 +1,8 @@
+@import url("//cdn-images.mailchimp.com/embedcode/slim-10_7.css");
+/*I adjusted Mailchimp's instructions, which called for <link>ing this file from my html head
+and instead @import-ed it directly into a custom css file which is named/stored/referenced according
+to Ananke theme rules*/
+
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+/* Add your own Mailchimp form style overrides following this style and you SHOULD override Mailchimp defaults.
+You can also comment out/replace the ID itself.*/
