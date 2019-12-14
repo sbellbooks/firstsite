@@ -8,8 +8,8 @@ releaseDate: "January 23, 2020"
 shortDescription: This is a short description of Hold On Tight
 blurb: ""
 eretailbuttons:
-  - Amazon
-  - Apple
+  Amazon: http://serenabell.com/r/HoldOnTight-Amazon
+  Apple: http://serenabell.com/r/HoldOnTight-Apple
 excerpt: ""
 seriesName: ""
 author: "Serena B"

@@ -1,11 +1,5 @@
-{{ $buttonlist := .Params.eretailbuttons }}
-<p>Current context: ({{.}})</p>
-<p>Params without .page in front of it: ({{.Params}})</p>
-<p>Variable: ({{ $buttonlist }})</p>
-{{/*<p>Second thing: ({{index $buttonlist 1}})</p>*/}}
-<p>Singular addressing: {{ .Param "eretailbuttons" }}</p>
-{{range (.Param "eretailbuttons") }}
+{{ range $key, $value := .Params.eretailbuttons }}
 <div class="ph3">
-  <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" href="#0">{{ . }}</a>
+  <a class="f6 link dim ph3 pv2 mb2 dib bg-black red ttu tracked" href={{$value}}>{{ print $key }}</a>
 </div>
 {{end}}
