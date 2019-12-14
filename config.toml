@@ -9,6 +9,7 @@ DefaultContentLanguage = "en"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
+sectionPagesMenu = "main"
 
 [sitemap]
   changefreq = "monthly"
@@ -37,18 +38,20 @@ enableRobotsTXT = true
   custom_css = ["css/mailchimp-styles.css", "css/additional-social-styles.css"]
   
 
-[menus]
 
-  [[menus.main]]
-    identifier = "home"
-    name = "Home"
+
+ [menus]
+
+ [[menus.main]]
+  identifier = "home"
+   name = "Home"
     pre = "<i class='fa fa-heart'></i>"
     url = "http://serenabell.com"
     weight = -110
 
-  [[menus.main]]
-    name = "getting started"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/getting-started/"
-    weight = -100
+#  [[menus.main]]
+    #name = "getting started"
+    #post = "<span class='alert'>New!</span>"
+    #pre = "<i class='fa fa-road'></i>"
+    #url = "/getting-started/"
+    #weight = -100
