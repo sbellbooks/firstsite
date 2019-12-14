@@ -1,8 +1,11 @@
-{{ . }}
-
-{{ range .Params.eretailerButtons }}
-
-<div class="ph3">
-  <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" href="#0">{{.}}</a>
-</div>
+{{ $buttonlist := .Params.eretailerbuttons }}
+<p>Current context: ({{.}})</p>
+<p>Params without .page in front of it: ({{.Params}})</p>
+<p>Variable: ({{ $buttonlist }})</p>
+<p>Second thing: ({{index $buttonlist 1}})</p>
+<p>Singular addressing: {{ .Param "eretailerbuttons" }}</p>
+{{range (.Param "eretailerbuttons") }}
 {{end}}
+<div class="ph3">
+  <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" href="#0">{{ . }}</a>
+</div>
