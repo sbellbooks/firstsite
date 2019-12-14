@@ -7,7 +7,7 @@ tagline: ""
 releaseDate: "January 23, 2020"
 shortDescription: This is a short description of Hold On Tight
 blurb: ""
-eretailerbuttons:
+erbuttons:
   - Amazon
   - Apple
 excerpt: ""

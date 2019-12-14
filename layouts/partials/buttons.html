@@ -1,11 +1,11 @@
-{{ $buttonlist := .Params.eretailerbuttons }}
+{{ $buttonlist := .Params.erbuttons }}
 <p>Current context: ({{.}})</p>
 <p>Params without .page in front of it: ({{.Params}})</p>
 <p>Variable: ({{ $buttonlist }})</p>
-<p>Second thing: ({{index $buttonlist 1}})</p>
-<p>Singular addressing: {{ .Param "eretailerbuttons" }}</p>
-{{range (.Param "eretailerbuttons") }}
-{{end}}
+{{/*<p>Second thing: ({{index $buttonlist 1}})</p>*/}}
+<p>Singular addressing: {{ .Param "erbuttons" }}</p>
+{{range (.Param "erbuttons") }}
 <div class="ph3">
   <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" href="#0">{{ . }}</a>
 </div>
+{{end}}
