@@ -11,7 +11,7 @@ eretailbuttons:
   Amazon: http://serenabell.com/r/HoldOnTight-Amazon
   Apple: http://serenabell.com/r/HoldOnTight-Apple
 excerpt: ""
-seriesName: ""
+seriesname: "Returning Home" 
 author: "Serena B"
 url: "/books/hold-on-tight"
 ---
