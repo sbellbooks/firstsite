@@ -5,23 +5,23 @@
     </section>
     <section>
 	  {{ $booksbyseries := dict }}
-	  {{ range $book := .Pages }}
-	    {{ $series := $book.Params.seriesname }}
-	    {{ $books := index $booksbyseries $series }}
-		{{ if reflect.IsSlice $books }}
-		  {{ append $books $book }}
-		{{ else }}
-          {{ $books = slice $book }}
-		  {{ $booksbyseries = merge $booksbyseries (dict $series $books) }}
-		{{ end }}
-	  {{end}}
+	  	  {{ range $book := .Pages }}
+	  	    {{ $series := $book.Params.seriesname }}
+	  	    {{ $books := index $booksbyseries $series }}
+	  		{{ if reflect.IsSlice $books }}
+	  		  {{ append $books $book }}
+	  		{{ else }}
+	            {{ $books = slice $book }}
+	  		  {{ $booksbyseries = merge $booksbyseries (dict $series $books) }}
+	  		{{ end }}
+	  	  {{end}}
 
-	  {{ range $series, $books := $booksbyseries }}
-	  <p>{{ $series }}</p>
-	    {{ range $book := $books }}
-		  <p>{{ $book.Title }}</p>
-		{{ end }}
-	  {{ end }}
+	  	  {{ range $series, $books := $booksbyseries }}
+	  	  <p>{{ $series }}</p>
+	  	    {{ range $book := $books }}
+	  		  <p>{{ $book.Title }}</p>
+	  		{{ end }}
+	  	  {{ end }}
 		
 {{/*      {{ range .Paginator.Pages }}
           {{- partial "summary.html" . -}}
