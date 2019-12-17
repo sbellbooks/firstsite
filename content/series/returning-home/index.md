@@ -3,13 +3,9 @@ title: Returning Home
 date: 
 draft: true
 seriesName: ""
-seriesShortDescription: ""
-seriesChildren: 
-  - hold-on-tight
-  - cant-hold-back
-  - to-have-and-to-hold
-  - holding-out
-seriesEretailerButtons: ""
+sshortdescript: "Soldier heroes, coming home wounded from the front, learning to love again and find new meaning in their lives."
+sminidescript: "Wounded soldiers finding love again."
+seriesButtons: ""
 ---
 
 This is a page about the series Returning Home. 

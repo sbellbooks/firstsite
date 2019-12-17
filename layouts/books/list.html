@@ -8,6 +8,8 @@
 	  	  
 	  	  {{ range $allbooks.GroupByParam "seriesname" }}
 	  	   <p> {{ .Key }} </p>
+		   {{ $seriespage := $.Site.GetPage ( .Key | urlize ) }}
+		   <p> {{ $seriespage.Params.sminidescript }} </p>
 	  			{{ range .Pages }}
 	  		<p>	{{ .Title }} </p>
 	  		    {{ end }}
