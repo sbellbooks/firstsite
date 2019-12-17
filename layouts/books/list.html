@@ -5,15 +5,14 @@
     </section>
     <section>
 	  {{ $allbooks := where $.Pages "Section" "books" }}
-	 	  	  
-	  {{ $realseries := where $allbooks "Params.seriesname" "not in" (slice "Novellas" "Standalones") }}
-	  		  
-	  {{ range $realseries.GroupByParam "seriesname" }}
-	   <p> {{ .Key }} </p>
-			  {{ range .Pages }}
-		<p>	  {{ .Title }} </p>
-		      {{ end }}
-	  {{ end }}
+	  	  
+	  	  {{ range $allbooks.GroupByParam "seriesname" }}
+	  	   <p> {{ .Key }} </p>
+	  			{{ range .Pages }}
+	  		<p>	{{ .Title }} </p>
+	  		    {{ end }}
+	  	  {{ end }}
+	  
 		
 {{/*      {{ range .Paginator.Pages }}
           {{- partial "summary.html" . -}}
