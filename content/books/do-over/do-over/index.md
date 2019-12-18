@@ -9,10 +9,10 @@ shortDescription: ""
 blurb: ""
 eretailerButtons: ""
 excerpt: ""
-seriesName: ""
+seriesName: Single Dads
 url: "/books/do-over"
-includeinbooks: false
-includeinseries: false
-includeinCS: true
+includeinbooks: true
+includeinseries: true
+includeincs: false
 ---
 

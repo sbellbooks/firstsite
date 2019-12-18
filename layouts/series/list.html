@@ -9,12 +9,15 @@
 	  {{ $realseries := where $allbooks "Params.seriesname" "not in" (slice "Novellas" "Standalones") }}
 	  		  
 	  {{ range $realseries.GroupByParam "seriesname" }}
-	   <p> {{ .Key }} </p>
-			  {{ range .Pages }}
+         {{ $seriespage := $.Site.GetPage ( .Key | urlize ) }}
+	     {{ if eq $seriespage.Params.includeinseries true }}
+	           <p> {{ .Key }} </p>		   
+			   {{ range .Pages }}
 			      {{ if .Params.includeinseries }}
 		             <p> {{ .Title }} </p>
 				  {{ end }}
 		      {{ end }}
+	     {{ end }}
 	  {{ end }}
 		
 {{/*      {{ range .Paginator.Pages }}

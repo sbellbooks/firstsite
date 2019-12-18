@@ -7,13 +7,15 @@
 	  {{ $allbooks := where $.Pages "Section" "books" }}
 	  	  
 	  	  {{ range $allbooks.GroupByParam "seriesname" }}
-	  	     <p> {{ .Key }} </p>
 		     {{ $seriespage := $.Site.GetPage ( .Key | urlize ) }}
-		        <p> {{ $seriespage.Params.sminidescript }} </p>
-	  		 {{ range .Pages }} 
-			     {{ if .Params.includeinbooks }}
-	  		    <p>	{{ .Title }} </p>
-				 {{ end }}
+			 {{ if eq $seriespage.Params.includeinbooks true }}
+	  	           <p> {{ .Key }} </p>
+		           <p> {{ $seriespage.Params.sminidescript }} </p>
+			           {{ range .Pages }} 
+			              {{ if .Params.includeinbooks }}
+	  		    <p>	         {{ .Title }} </p>
+				          {{ end }}
+					   {{ end }}  
 			 {{ end }}	
 	  	  {{ end }}
 	  

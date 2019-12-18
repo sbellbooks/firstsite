@@ -11,5 +11,8 @@ eretailerButtons: ""
 excerpt: ""
 seriesName: ""
 url: "/books/{{ .Name }}"
+includeinbooks: true
+includeinseries: true
+includeinCS: true
 ---
 

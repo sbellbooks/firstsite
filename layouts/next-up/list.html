@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <article>
+    <section>
+      {{- .Content -}}
+    </section>
+    <section>
+	  {{ $allbooks := where $.Site.Pages "Section" "books" }}
+	  	  
+	  	  {{ range $allbooks.GroupByParam "seriesname" }}
+	  		 {{ range .Pages }} 
+			     {{ if eq .Params.includeinCS true }}
+	  		    <p>	{{ .Title }} </p>
+				 {{ end }}
+			 {{ end }}	
+	  	  {{ end }}
+	  
+		
+{{/*      {{ range .Paginator.Pages }}
+          {{- partial "summary.html" . -}}
+        </div>
+      {{ end }}
+    </section>
+    {{- template "_internal/pagination.html" . -}}
+  </article>*/}}
+{{ end }}

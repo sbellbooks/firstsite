@@ -6,5 +6,7 @@ seriesName: ""
 sshortdescript: ""
 sminidescript: ""
 seriesButtons: ""
+includeinbooks: true
+includeinseries: true
 ---
 
