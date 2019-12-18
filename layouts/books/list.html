@@ -11,9 +11,12 @@
 		     {{ $seriespage := $.Site.GetPage ( .Key | urlize ) }}
 		        <p> {{ $seriespage.Params.sminidescript }} </p>
 	  		 {{ range .Pages }}
-	  		    <p>	{{ .Title }} </p>
-	  		        {{ end }}
-	  	     {{ end }}
+			 {{ $t := time .Params.releasedate }}
+			 		{{ if $t.Before now }} 
+	  		    <p>		{{ .Title }} </p>
+					{{ end }}
+			  {{ end }}	
+	  	   {{ end }}
 	  
 		
 {{/*      {{ range .Paginator.Pages }}
