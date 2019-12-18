@@ -14,6 +14,9 @@ excerpt: ""
 seriesname: "Returning Home" 
 author: "Serena B"
 url: "/books/hold-on-tight"
+includeinbooks: true
+includeinseries: true
+includeinCS: false
 ---
 
 This is a page with stuff about Hold On Tight. 

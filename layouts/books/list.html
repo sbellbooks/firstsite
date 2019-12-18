@@ -10,13 +10,12 @@
 	  	     <p> {{ .Key }} </p>
 		     {{ $seriespage := $.Site.GetPage ( .Key | urlize ) }}
 		        <p> {{ $seriespage.Params.sminidescript }} </p>
-	  		 {{ range .Pages }}
-			 {{ $t := time .Params.releasedate }}
-			 		{{ if $t.Before now }} 
-	  		    <p>		{{ .Title }} </p>
-					{{ end }}
-			  {{ end }}	
-	  	   {{ end }}
+	  		 {{ range .Pages }} 
+			     {{ if .Params.includeinbooks }}
+	  		    <p>	{{ .Title }} </p>
+				 {{ end }}
+			 {{ end }}	
+	  	  {{ end }}
 	  
 		
 {{/*      {{ range .Paginator.Pages }}

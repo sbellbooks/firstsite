@@ -11,7 +11,9 @@
 	  {{ range $realseries.GroupByParam "seriesname" }}
 	   <p> {{ .Key }} </p>
 			  {{ range .Pages }}
-		<p>	  {{ .Title }} </p>
+			      {{ if .Params.includeinseries }}
+		             <p> {{ .Title }} </p>
+				  {{ end }}
 		      {{ end }}
 	  {{ end }}
 		

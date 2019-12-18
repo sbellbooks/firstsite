@@ -4,12 +4,15 @@ date: 2019-12-10T19:38:03-08:00
 draft: true
 cover: ""
 tagline: ""
-releaseDate: 26 Feb 20 1:00 MST
+releaseDate: ""
 shortDescription: ""
 blurb: ""
 eretailerButtons: ""
 excerpt: ""
 seriesName: ""
 url: "/books/do-over"
+includeinbooks: false
+includeinseries: false
+includeinCS: true
 ---
 
