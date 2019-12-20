@@ -11,7 +11,7 @@
       <h1 class="f1 athelas mb1">
         {{- .Title -}}
 		{{ $t := time .Params.releasedate }}
-		   {{ if $t.Before now }}
+		   {{ if $t.After now }}
 		   <p> {{ dateFormat "Monday, January 2, 2006" $t }} </p>
 		   {{ end }}
       </h1>
