@@ -4,7 +4,7 @@ date: 2019-12-08T17:25:55-08:00
 draft: true
 cover: "/images/hold-on-tight.jpg"
 tagline: ""
-releaseDate: 26 Feb 19 1:00 MST
+releasedate: 26 Feb 19 1:00 PST
 shortDescription: This is a short description of Hold On Tight
 blurb: ""
 eretailbuttons:

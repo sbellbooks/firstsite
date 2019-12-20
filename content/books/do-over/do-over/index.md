@@ -4,7 +4,7 @@ date: 2019-12-10T19:38:03-08:00
 draft: true
 cover: ""
 tagline: ""
-releaseDate: ""
+releasedate: 30 Jan 18 00:01 PST
 shortDescription: ""
 blurb: ""
 eretailerButtons: ""

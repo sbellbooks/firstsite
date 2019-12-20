@@ -4,14 +4,16 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ $section := .Site.GetPage "section" .Section }}
   <article class="flex-l flex-wrap justify-between mw8 center ph3">
 
     <header class="mt4 w-100">
       
       <h1 class="f1 athelas mb1">
         {{- .Title -}}
-		{{- .Params.release -}}
+		{{ $t := time .Params.releasedate }}
+		   {{ if $t.Before now }}
+		   <p> {{ dateFormat "Monday, January 2, 2006" $t }} </p>
+		   {{ end }}
       </h1>
       
     </header>
