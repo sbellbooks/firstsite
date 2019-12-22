@@ -8,7 +8,7 @@
 
     <header class="mt4 w-100">
       
-      <h1 class="f1 athelas mb1">
+      <h1 class="f1 athelas serif mid-gray mb1">
         {{- .Title }} | {{ .Params.seriesName }} Book # {{ .Params.seriesorder }}  
 		{{ $t := time .Params.releasedate }}
 		   {{ if $t.After now }}
@@ -25,6 +25,12 @@
     </div>	
 	
 	<img src="{{ .Params.cover }}" />
+	
+	<header class="mt4 w-100">
+        <h1 class="f2 athelas mid-gray mb1">
+        {{- .Title -}} 
+        </h1>
+	</header>
 	
 	<div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
 	{{ $fred := (printf "%s-bits" .File.ContentBaseName ) }}
