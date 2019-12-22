@@ -10,6 +10,7 @@ blurb: ""
 eretailerButtons: ""
 excerpt: ""
 seriesName: ""
+seriesorder: ""
 url: "/books/{{ .Name }}"
 includeinbooks: true
 includeinseries: true

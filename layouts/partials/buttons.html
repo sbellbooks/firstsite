@@ -1,5 +1,5 @@
-{{ range $key, $value := .Params.eretailbuttons }}
 <div class="ph3">
-  <a class="f6 link dim ph3 pv2 mb2 dib bg-black red ttu tracked" href={{$value}}>{{ print $key }}</a>
-</div>
+{{ range $key, $value := .Params.eretailbuttons }}
+   <a class="f6 link dim ph3 pv2 mb2 dib bg-black red ttu tracked" href={{$value}}>{{ print $key }}</a>
 {{end}}
+</div>

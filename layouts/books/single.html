@@ -9,14 +9,21 @@
     <header class="mt4 w-100">
       
       <h1 class="f1 athelas mb1">
-        {{- .Title -}}
+        {{- .Title }} | {{ .Params.seriesName }} Book # {{ .Params.seriesorder }}  
 		{{ $t := time .Params.releasedate }}
 		   {{ if $t.After now }}
-		   <p> {{ dateFormat "Monday, January 2, 2006" $t }} </p>
+		   | {{ dateFormat "Monday, January 2, 2006" $t }}
 		   {{ end }}
       </h1>
       
     </header>
+	
+	<div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">Preorder now from these e-retailers!</div>
+	
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+	  {{ partial "buttons.html" . }}	
+    </div>	
+	
 	<img src="{{ .Params.cover }}" />
 	
 	<div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
@@ -24,20 +31,13 @@
 	{{ $headless := .Site.GetPage $fred }}
     {{ $reusablePages := $headless.Resources.ByType "page" }}
     {{ $reusablePages := sort $reusablePages ".Params.weight" }}
-    {{ range first 1 $reusablePages }}
+    {{ range $reusablePages }}
 	
+	        <h2>{{ .Title }}</h2>
             <p>{{ .Content }}</p>
             
     {{ end }}
 
-    {{ range first 1 (after 1 $reusablePages) }}
-    
-	
-            <h2>{{ .Title }}</h2>
-            <p>{{ .Content }}</p>
-			
-			         
-    {{ end }}
 	</div>
 
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
