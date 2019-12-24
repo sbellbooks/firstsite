@@ -5,6 +5,7 @@ draft: true
 cover: ""
 tagline: ""
 releasedate: 30 Jan 18 00:01 PST
+salestatus: # use none, preorder or sale # sale
 shortDescription: ""
 blurb: ""
 eretailerButtons: ""

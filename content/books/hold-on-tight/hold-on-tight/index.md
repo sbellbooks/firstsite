@@ -5,6 +5,7 @@ draft: true
 cover: "/images/hold-on-tight.jpg"
 tagline: ""
 releasedate: 26 Feb 19 1:00 PST
+salestatus: # use none, preorder or sale # sale
 shortDescription: This is a short description of Hold On Tight
 blurb: ""
 eretailbuttons:

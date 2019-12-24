@@ -5,6 +5,7 @@ draft: true
 cover: ""
 tagline: ""
 releaseDate: ""
+salestatus: # use none, preorder or sale # ""
 shortDescription: ""
 blurb: ""
 eretailerButtons: ""
