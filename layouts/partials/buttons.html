@@ -1,5 +1,13 @@
+<div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l">
+    {{ if eq .Params.salestatus "sale" }}
+        On sale now at these e-retailers!
+    {{ else if eq .Params.salestatus "preorder" }}
+	    Preorder now from these e-retailers!
+    {{ else if eq .Params.salestatus "none" }}
+    {{ end }}
+</div>
 <div class="ph3">
-{{ range $key, $value := .Params.eretailbuttons }}
-   <a class="f6 link dim ph3 pv2 mb2 dib bg-black red ttu tracked" href={{$value}}>{{ print $key }}</a>
-{{end}}
+    {{ range $key, $value := .Params.eretailbuttons }}
+        <a class="f6 link dim ph3 pv2 mb2 dib bg-black red ttu tracked" href={{$value}}>{{ print $key }}</a>
+    {{end}}
 </div>

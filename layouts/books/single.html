@@ -1,6 +1,6 @@
+{{/* We can override any block in the baseof file by defining it in the template */}}
 {{ define "header" }}
-   {{/* We can override any block in the baseof file be defining it in the template */}}
-  {{ partial "site-header.html" . }}
+    {{ partial "site-header.html" . }}
 {{ end }}
 
 {{ define "main" }}
@@ -17,8 +17,6 @@
       </h1>
       
     </header>
-	
-	<div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">Preorder now from these e-retailers!</div>
 	
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
 	  {{ partial "buttons.html" . }}	
