@@ -9,11 +9,11 @@
 	  	  {{ range $allbooks.GroupByParam "seriesname" }} {{/* Range through the pages, now grouped by series name. */}}
 		     {{ $seriespage := $.Site.GetPage ( .Key | urlize ) }} {{/* Turn the series name into a URL and grab the series page. */}}
 			 {{ if eq $seriespage.Params.includeinbooks true }} {{/* Check if you should include that series on the books page. */}}
-	  	           <p> {{ .Key }} </p> {{/* If you should, print the series name. */}}
+	  	           <p> <a href="/series/{{ .Key | urlize }}">{{ .Key }}</a> </p> {{/* If you should, print the series name (w link to series page). */}}
 		           <p> {{ $seriespage.Params.sminidescript }} </p> {{/* Print the series' mini description. */}}
 			           {{ range .Pages }} {{/* Range through the (book) pages contained in this key (series name) */}}
 			              {{ if .Params.includeinbooks }} {{/* Check if you should include that book on the series page. */}}
-	  		    <p>	         <img src="{{ .Params.cover }}" width=200/> </p> {{/* If you should, display the book's cover. */}}
+	  		    <p>	         <a href="/books/{{.Title | urlize}}"><img src="{{ .Params.cover }}" width=200/></a> </p> {{/* If you should, display the book's cover. */}}
 				          {{ end }}
 					   {{ end }}  
 			 {{ end }}	
