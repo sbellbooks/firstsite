@@ -11,30 +11,22 @@
       
       <h1 class="f1 athelas mb1">
         {{- .Title -}}
+		
       </h1>
       
     </header>
-	<img src="{{ .Params.cover }}" />
+	
 	
 	<div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-	    {{ $seriesBookNames := .Page.Params.seriesChildren}} {{/* Stores the book names of the series children as a variable.*/}} 
-		{{ range $seriesBookNames }} {{/* Ranges through the book names for the series. */}}
-    
-				
-	             <img src="/images/{{.}}.jpg" /> {{/* Displays the book cover */}}
-				{{ $currentBookPage := $.Site.GetPage . }} {{/* Starting from the highest context, use GetPage to retrieve the page                                                                   named . and write it to $currentBookPage */}}
-				{{ $currentBookPage.Params.shortDescription }} {{/* Retrieve the shortDescription for the page stored in 																    $currentBookPage (the one named .) */}}
-				 
-			
-			         
-	    {{ end }}
+		{{ .Params.sshortdescript }}
+		{{ $allbooks := where .Site.RegularPages "Section" "books" }}
+		{{ $thisseries := where $allbooks "Params.seriesname" .Title }}
+		{{range $thisseries }}
+		    <img src="{{ .Params.cover }}" width=100 />
+		    {{ .Params.shortDescription }}
+		{{ end }}
 	
 	</div>
-
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-      {{- .Content -}}
-	  This is random text to tell me this file is using the "series" layout template.
-    </div>
 
     <aside class="w-30-l mt6-l">
       {{- partial "menu-contextual.html" . -}}

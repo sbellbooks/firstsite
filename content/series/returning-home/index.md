@@ -10,4 +10,3 @@ includeinbooks: true
 includeinseries: true
 ---
 
-This is a page about the series Returning Home. 
