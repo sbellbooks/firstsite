@@ -3,18 +3,13 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 cover: ""
-tagline: ""
-releaseDate: ""
-salestatus: # use none, preorder or sale # ""
+releaseDate: "" # use this format 26 Feb 19 1:00 PST #
+salestatus: # use none, preorder or sale, no quotes # ""
 shortDescription: ""
-blurb: ""
-eretailerButtons: ""
-excerpt: ""
+eretailerButtons: "" # entries are one per line, indented under name of param, like so Retailer: http://serenabell.com/r/Book-Retailer #
 seriesName: ""
-seriesorder: ""
-url: "/books/{{ .Name }}"
+seriesorder: # numeral, no quotes #
 includeinbooks: true
 includeinseries: true
-includeinCS: true
 ---
 

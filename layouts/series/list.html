@@ -10,7 +10,7 @@
 	  		  
 	  {{ range $realseries.GroupByParam "seriesname" }}
          {{ $seriespage := $.Site.GetPage ( .Key | urlize ) }}
-	     {{ if eq $seriespage.Params.includeinseries true }}
+	     {{ if $seriespage.Params.includeinseries }}
 	           <a href="/series/{{ .Key | urlize }}"><p> {{ .Key }} </p></a>	
 	           <p> {{ $seriespage.Params.sminidescript }} </p> {{/* Print the series' mini description. */}}	   
 			   {{ range .Pages }}
