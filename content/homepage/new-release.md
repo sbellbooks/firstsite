@@ -1,7 +1,6 @@
 ---
 title: 'New Release'
 weight: 1
-background: 'images/testimagebackgrounds.jpg'
 button: 'Buy Now'
 buttonLink: 'work'
 ---
