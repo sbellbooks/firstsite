@@ -11,8 +11,11 @@ eretailbuttons:
   Apple: http://serenabell.com/r/HoldOnTight-Apple
 seriesname: "Returning Home" 
 seriesorder: 1
+url: "/books/hold-on-tight"
 includeinbooks: true
 includeinseries: true
+includeincs: true
+
 ---
 
 This is a page with stuff about Hold On Tight. 

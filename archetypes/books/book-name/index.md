@@ -9,6 +9,7 @@ shortDescription: ""
 eretailerButtons: "" # entries are one per line, indented under name of param, like so Retailer: http://serenabell.com/r/Book-Retailer #
 seriesName: ""
 seriesorder: # numeral, no quotes #
+url: "/books/{{ .Name }}"
 includeinbooks: true
 includeinseries: true
 ---

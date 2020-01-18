@@ -11,6 +11,21 @@ googleAnalytics = ""
 enableRobotsTXT = true
 sectionPagesMenu = "main"
 
+# setting html renderer not to puke on unsafe html
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# news items get urls related to their dates & titles	  
+[permalinks]
+  news = "/:year/:month/:day/:title/"	  
+
+# specifies that hugo should use tags  
+[taxonomies]
+  tag = "tags"  
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
