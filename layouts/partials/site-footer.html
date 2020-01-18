@@ -3,20 +3,8 @@
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
     &copy; {{ now.Format "2006" }} {{ .Site.Title }}
   </a>
-  <!-- Begin Mailchimp Signup Form -->
-  <div id="mc_embed_signup">
-  <form action="https://serenabell.us7.list-manage.com/subscribe/post?u=0f283419ac3babea843fc9bba&amp;id=18700ad371" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div id="mc_embed_signup_scroll">
-  	<label for="mce-EMAIL">Subscribe</label>
-  	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0f283419ac3babea843fc9bba_18700ad371" tabindex="-1" value=""></div>
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-      </div>
-  </form>
-  </div>
-
-  <!--End mc_embed_signup-->
+  {{ partial "nl-signup.html" . }}
+  
     <div>{{ partial "social-follow.html" . }}</div>
   </div>
 </footer>

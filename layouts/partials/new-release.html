@@ -1,0 +1,15 @@
+  <div class="cover bg-top" style="background-image: url('{{ .Params.background | absURL }}');">
+    <div class="mw7 mw9-ns center pa3 ph5-ns">
+      <div class="cf">
+		<div class="fl w-50 pa2">
+	
+          <h2 class="text-primary text-capitalize">{{ .Params.whichrelease }}</h2>
+		  {{ $newreleasename := .Params.whichrelease | urlize }}
+		  {{ $newrelease := .Site.GetPage $newreleasename }}
+		  <img src="{{ $newrelease.Params.currentdispimg }}" />
+		  <p>{{ $newrelease.Params.shortDescription }}</p>
+		  {{ partial "buttons.html" $newrelease }}
+        </div>
+      </div>
+    </div>
+  </div>

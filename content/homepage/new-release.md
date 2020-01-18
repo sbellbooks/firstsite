@@ -3,6 +3,6 @@ title: 'New Release'
 weight: 1
 button: 'Buy Now'
 buttonLink: 'work'
+whichrelease: "Hold On Tight"
 ---
 
-She only needs an itty bitty favor ... unfortunately, when Griff does the favor she's asking for, he does it BIG. 

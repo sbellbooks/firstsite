@@ -3,6 +3,7 @@ title: "Hold On Tight"
 date: 2019-12-08T17:25:55-08:00
 draft: true
 cover: "/images/hold-on-tight.jpg"
+currentdispimg: "/images/hotblitzsquare.png"
 releasedate: 26 Feb 19 1:00 PST
 salestatus: sale # use none, preorder or sale # 
 shortDescription: This is a short description of Hold On Tight

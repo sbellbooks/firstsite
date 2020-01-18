@@ -3,20 +3,7 @@
   {{ $reusablePages := $headless.Resources.ByType "page" }}
   {{ $reusablePages := sort $reusablePages ".Params.weight" }}
   {{ range first 1 $reusablePages }}
-  <div class="cover bg-top" style="background-image: url('{{ .Params.background | absURL }}');">
-    <div class="mw7 mw9-ns center pa3 ph5-ns">
-      <div class="cf">
-        <div class="fl w-50 pa2">
-		</div>
-		<div class="fl w-50 pa2">
-	
-          <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
-          <p>{{ .Content }}</p>
-          <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
-        </div>
-      </div>
-    </div>
-  </div>
+      {{ partial "new-release.html" . }}
   {{ end }}
 
   {{ range first 1 (after 1 $reusablePages) }}

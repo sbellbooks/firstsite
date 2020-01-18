@@ -3,6 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 cover: ""
+currentdispimg: ""
 releaseDate: "" # use this format 26 Feb 19 1:00 PST #
 salestatus: # use none, preorder or sale, no quotes # ""
 shortDescription: ""
