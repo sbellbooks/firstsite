@@ -36,6 +36,7 @@
     {{ $blurb := $bitspages.Resources.GetMatch "blurb.md" }}
 
 	        <h2>{{ $blurb.Title }}</h2>
+			<p><b>{{ $blurb.Params.tagline }}</b></p>
             <p>{{ $blurb.Content }}</p>
 			
 			{{ partial "buttons.html" . }}	

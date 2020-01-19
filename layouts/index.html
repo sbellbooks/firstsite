@@ -5,18 +5,8 @@
   {{ range first 1 $reusablePages }}
       {{ partial "new-release.html" . }}
   {{ end }}
-
+  {{ partial "nl-signup" . }}
   {{ range first 1 (after 1 $reusablePages) }}
-  <div id="home" class="strip bg-primary bg-cover bg-position-top bg-overlay" style='background-image: url("{{ .Params.background | relURL }}");'>
-    <div class="mw7 mw9-ns center bg-light-gray pa3 ph5-ns">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-8 text-center text-white">
-          <h2>{{ .Title }}</h2>
-          <p>{{ .Content }}</p>
-          <a class="button button-white" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
-        </div>
-      </div>
-    </div>
-  </div>
+      {{ partial "best-series.html" . }}
   {{ end }}
 {{ end }}

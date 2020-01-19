@@ -1,0 +1,13 @@
+  <div id="home" class="strip bg-primary bg-cover bg-position-top bg-overlay" style='background-image: url("{{ .Params.background | relURL }}");'>
+    <div class="mw7 mw9-ns center bg-light-gray pa3 ph5-ns">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 text-center text-white">
+          <h2>{{ .Params.headertext }}</h2>
+		  <img src="{{ .Params.seriesimage }}" />
+		  {{ $featuredseries := .Params.seriesname | urlize }}
+		  {{ $featuredseriespage := .Site.GetPage $featuredseries }}
+          <a class="f6 link dim ph3 pv2 mb2 dib bg-black red ttu tracked" href={{ $featuredseriespage.Permalink }}>{{ .Params.buttontext }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
