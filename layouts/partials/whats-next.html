@@ -7,15 +7,10 @@
           <h2 class="text-primary text-capitalize">{{ .Params.headertext }}</h2>
 		  {{ $featuredbookname := .Params.featuredbook | urlize }}
 		  {{ $featuredbook := .Site.GetPage $featuredbookname }}
-	  	  {{ $bitsdirectory := (printf "%s-bits" $featuredbook.File.ContentBaseName ) }}
-	  	  {{ $bitspages := .Site.GetPage $bitsdirectory }}
-	      {{ $blurb := $bitspages.Resources.GetMatch "blurb.md" }}
-	  			<p>{{ $blurb.Params.tagline }}
-		  <img src="{{ $featuredbook.Params.cover }}" />
-		  <p> <b>{{ .Params.tagline }}</b></p>
-		  <p> {{ .Params.reviewquote }} <b>{{ .Params.attribution }}</b> </p>
 		  <p> {{ .Content }}</p>
-		  {{ partial "buttons.html" $featuredbook }}
+	  	  <img src="{{ $featuredbook.Params.cover }}" />
+		  <p> <b>{{ .Params.tagline }}</b></p>		 
+		  <a class="f6 link dim ph3 pv2 mb2 dib bg-black red ttu tracked" href={{ $featuredbook.Permalink }}>{{ .Params.buttontext }}</a>
         </div>
       </div>
     </div>
