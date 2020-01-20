@@ -13,6 +13,10 @@
     {{ else }}
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{ end }}
+	
+	{{/* {{ $sass := resources.Get "colors.scss" }}
+	{{ $style := $sass | resources.ToCSS }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}"> */}} {{/* This code is eventually supposed to generate a colors.css file on the fly from a single template and a list of hex codes and color names stored in the specified file inside the /assets folder */}}
 
     {{ $stylesheet := .Site.Data.webpack_assets.app }}
     {{ with $stylesheet.css }}

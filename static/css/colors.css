@@ -1,0 +1,47 @@
+.dark-slate-gray {
+  color: #3A4454;
+  &:visited {
+    color: #3A4454
+  }
+}
+.bg-dark-slate-gray {
+  background-color: #3A4454;
+}
+.b--dark-slate-gray {
+  border-color: #3A4454;
+}
+.hover-bg-dark-slate-gray {
+  &:focus,
+  &:active,
+  &:hover {
+    background-color: #3A4454;
+  }
+}
+.hover-bg-dark-slate-gray:hover,
+.hover-bg-dark-slate-gray:visited:hover {
+  color: #3A4454;
+}
+
+.light-steel-blue {
+  color: #D5D9DF;
+  &:visited {
+    color: #D5D9DF
+  }
+}
+.bg-light-steel-blue {
+  background-color: #D5D9DF;
+}
+.b--light-steel-blue {
+  border-color: #D5D9DF;
+}
+.hover-bg-light-steel-blue {
+  &:focus,
+  &:active,
+  &:hover {
+    background-color: #D5D9DF;
+  }
+}
+.hover-bg-light-steel-blue:hover,
+.hover-bg-light-steel-blue:visited:hover {
+  color: #D5D9DF;
+}

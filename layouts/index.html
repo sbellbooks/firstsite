@@ -1,4 +1,7 @@
 {{ define "main" }}
+
+  {{/* The following code generates the individual sections of the home page using a headless bundle and a series of partials. */}}
+  
   {{ $headless := .Site.GetPage "/homepage" }}
   {{ $reusablePages := $headless.Resources.ByType "page" }}
   {{ $reusablePages := sort $reusablePages ".Params.weight" }}
@@ -11,7 +14,5 @@
   {{ end }}
   {{ range first 1 (after 2 $reusablePages) }}
       {{ partial "whats-next.html" . }}
-  {{ end }}	  
-  {{ partial "nl-signup" . }}
- 
+  {{ end }}	   
 {{ end }}

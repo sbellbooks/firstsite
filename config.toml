@@ -47,10 +47,10 @@ sectionPagesMenu = "main"
   goodreads = "https://www.goodreads.com/author/show/6600927.Serena_Bell"
   bookbub = "https://www.bookbub.com/profile/serena-bell"
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
+  background_color_class = "bg-dark-slate-gray"
   featured_image = "/images/site-header-image-background.jpg"
   recent_posts_number = 2
-  custom_css = ["css/mailchimp-styles.css", "css/additional-social-styles.css"]
+  custom_css = ["css/mailchimp-styles.css", "css/additional-social-styles.css", "css/colors.css"]
   
 
 
