@@ -1,3 +1,109 @@
+
+//
+.slate-gray {
+  color: #757D89;
+  &:visited {
+    color: #757D89
+  }
+}
+.bg-slate-gray {
+  background-color: #757D89;
+}
+.b--slate-gray {
+  border-color: #757D89;
+}
+.hover-bg-slate-gray {
+  &:focus,
+  &:active,
+  &:hover {
+    background-color: #757D89;
+  }
+}
+.hover-bg-slate-grayn:hover,
+.hover-bg-slate-gray:visited:hover {
+  color: #757D89;
+}
+
+//
+
+.rosy-brown {
+  color: #B88AAD;
+  &:visited {
+    color: #B88AAD
+  }
+}
+.bg-rosy-brown {
+  background-color: #B88AAD;
+}
+.b--rosy-brown {
+  border-color: #B88AAD;
+}
+.hover-bg-rosy-brown {
+  &:focus,
+  &:active,
+  &:hover {
+    background-color: #B88AAD;
+  }
+}
+.hover-bg-rosy-brown:hover,
+.hover-bg-rosy-brown:visited:hover {
+  color: #B88AAD;
+}
+
+//
+
+.old-rose {
+  color: #A62878;
+  &:visited {
+    color: #A62878
+  }
+}
+.bg-old-rose {
+  background-color: #A62878;
+}
+.b--old-rose {
+  border-color: #A62878;
+}
+.hover-bg-old-rose {
+  &:focus,
+  &:active,
+  &:hover {
+    background-color: #A62878;
+  }
+}
+.hover-bg-old-rose:hover,
+.hover-bg-old-rose:visited:hover {
+  color: #A62878;
+}
+
+//
+
+.barely-lsb {
+  color: #f0f4fa;
+  &:visited {
+    color: #f0f4fa
+  }
+}
+.bg-barely-lsb {
+  background-color: #f0f4fa;
+}
+.b--barely-lsb {
+  border-color: #f0f4fa;
+}
+.hover-bg-barely-lsb {
+  &:focus,
+  &:active,
+  &:hover {
+    background-color: #f0f4fa;
+  }
+}
+.hover-bg-barely-lsb:hover,
+.hover-bg-barely-lsb:visited:hover {
+  color: #f0f4fa;
+}
+
+//
+
 .dark-slate-gray {
   color: #3A4454;
   &:visited {
@@ -21,6 +127,8 @@
 .hover-bg-dark-slate-gray:visited:hover {
   color: #3A4454;
 }
+
+//
 
 .light-steel-blue {
   color: #D5D9DF;
