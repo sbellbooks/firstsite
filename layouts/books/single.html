@@ -8,8 +8,8 @@
 
     <header class="mt4 w-100">
       
-      <h1 class="f1 athelas serif mid-gray mb1">
-        {{- .Title }} | {{ .Params.seriesName }} Book # {{ .Params.seriesorder }}  
+      <h1 class="f3 athelas serif mid-gray mb1">
+        {{- .Title }} | {{ .Params.seriesName }} Book {{ .Params.seriesorder }}  
 		{{ $releasedate := time .Params.releasedate }}
 		{{ if $releasedate.After now }}
 		  | {{ dateFormat "Monday, January 2, 2006" $releasedate }}
