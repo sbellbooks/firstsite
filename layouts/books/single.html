@@ -18,7 +18,7 @@
       
     </header>
 	
-    <div class="nested-copy-line-height lh-copy athelas serif f4 nested-links nested-img dark-slate-gray pr4-l w-two-thirds-l">
+    <div class="lh-copy athelas serif f4 dark-slate-gray pr4-l w-two-thirds-l">
 	  {{ partial "buttons.html" . }}	
     </div>	
 	
@@ -30,7 +30,7 @@
         </h1>
 	</header>
 	
-	<div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+	<div class="lh-copy serif f4 mid-gray pr4-l w-two-thirds-l">
 	{{ $bitsdirectory := (printf "%s-bits" .File.ContentBaseName ) }}
 	{{ $bitspages := .Site.GetPage $bitsdirectory }}
     {{ $blurb := $bitspages.Resources.GetMatch "blurb.md" }}
