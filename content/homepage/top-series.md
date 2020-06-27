@@ -1,7 +1,7 @@
 ---
 title: ""
 headertext: Fall in Love with Four Wounded Soldiers
-weight: 2
+weight: 3
 background: ''
 seriesname: "Returning Home"
 seriesimage: "images/temprhseriesimage.png"

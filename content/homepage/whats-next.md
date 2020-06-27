@@ -1,7 +1,7 @@
 ---
 title: 'New Release'
 headertext: "What's Next?"
-weight: 3
+weight: 4
 featuredbook: "Hold On Tight"
 buttontext: "Learn More!"
 ---

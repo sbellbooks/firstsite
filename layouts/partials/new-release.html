@@ -4,7 +4,8 @@
 		<div class="fl w-50 pa2">
 			
 	
-          <h2 class="text-primary text-capitalize">{{ .Params.headertext }}</h2>
+          <h2 class="text-primary text-capitalize athelas">{{ .Params.headertext }}</h2>
+		  <div class="athelas">
 		  {{ $featuredbookname := .Params.featuredbook | urlize }}
 		  {{ $featuredbook := .Site.GetPage $featuredbookname }}
 	  	  {{ $bitsdirectory := (printf "%s-bits" $featuredbook.File.ContentBaseName ) }}

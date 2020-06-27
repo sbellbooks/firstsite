@@ -6,13 +6,16 @@
   {{ $reusablePages := $headless.Resources.ByType "page" }}
   {{ $reusablePages := sort $reusablePages ".Params.weight" }}
   {{ range first 1 $reusablePages }}
+      {{ partial "astory.html" . }}
+  {{ end }}
+  {{ range first 1 (after 1 $reusablePages) }}
       {{ partial "new-release.html" . }}
   {{ end }}
-  {{ partial "nl-signup" . }}
-  {{ range first 1 (after 1 $reusablePages) }}
-      {{ partial "best-series.html" . }}
-  {{ end }}
   {{ range first 1 (after 2 $reusablePages) }}
+      {{ partial "top-series.html" . }}
+  {{ end }}
+  {{ partial "nl-signup" . }}
+  {{ range first 1 (after 3 $reusablePages) }}
       {{ partial "whats-next.html" . }}
   {{ end }}	   
 {{ end }}
