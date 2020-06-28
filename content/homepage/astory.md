@@ -1,11 +1,10 @@
 ---
 title: ""
-headertext: Welcome to Heat, Heart & Humor
+headertext: Hey, there!
 weight: 2
 background: ''
-image: "images/serenabellsqhead.jpg"
+image: "images/serenabellphoto.jpg"
 buttontext: Learn More!
 
 ---
-
-Why isn't this text showing up? 
+Hi! I'm Serena. I write steamy contemporary romance. The stories are deep, the emotions and characters are real, and the sex is hot. 
