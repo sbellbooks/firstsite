@@ -2,11 +2,11 @@
 {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
 {{ $featured_image := (trim $featured_image "/") | absURL }}
 <header class="cover bg-top center mw8-l" style="background-image: url('{{ $featured_image }}');">
-      <div class="tc ph3 pt1 ph5-m mw5-m">
+      <div class="tc ph3 pt1 ph5-m mh3-l ph6-l">
 		<img src="/images/transparent-sb-script.png" class="tc" alt="Serena Bell script">
       </div>
 	  <div class="pl2">
-	  <div class="tc">
+	  <div class="tc pb2-l">
 		  {{ partialCached "social-follow.html" . }}
 	  </div>
       </div>
