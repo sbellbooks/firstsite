@@ -14,7 +14,9 @@
   {{ range first 1 (after 2 $reusablePages) }}
       {{ partial "top-series.html" . }}
   {{ end }}
+  <div class="mw8-l center">
   {{ partial "nl-signup" . }}
+  </div>
   {{ range first 1 (after 3 $reusablePages) }}
       {{ partial "whats-next.html" . }}
   {{ end }}	   
