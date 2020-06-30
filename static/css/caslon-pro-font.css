@@ -1,0 +1,8 @@
+@import url("https://use.typekit.net/fxl3wxm.css");
+/*I adjusted Adobe's instructions, which called for <link>ing this file from my html head
+and instead @import-ed it directly into a custom css file which is named/stored/referenced according
+to Ananke theme rules*/
+
+.adobe-caslon-pro {
+    font-family: adobe-caslon-pro, athelas, serif;
+}
